@@ -1,0 +1,139 @@
+/* GLOBAL STYLE */
+menuitem{
+     background: rgb(255, 196, 0);
+     padding-top: 10px;
+     padding-bottom: 10px;
+     color: black;
+}
+
+menuitem:hover{
+     background: whitesmoke;
+}
+
+button{
+     background: rgb(255,236,196);
+     border: none;
+     color: black;
+}
+
+#myWindow{
+     background-image: url('img/desk.png');
+     background-color: pink;
+}
+
+#bt_led{
+	background-color: white;
+    border:none;
+    border-radius: 22px;
+    text-shadow: 8px 1px red;
+	color: black;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: Georgia, serif;
+}
+
+#bt_led:hover{
+	background-color: green;
+}
+
+#bt_soal_1, #bt_soal_4{
+	background-color: white;
+    border:none;
+    border-radius: 22px;
+    text-shadow: 8px 2px red;
+	color: black;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: Georgia, serif;
+}
+
+#bt_soal_1:hover, #bt_soal_4:hover{
+	background-color: blue;
+	box-shadow: -5px 5px red;
+}
+
+#bt_soal_2{
+	background-color: white;
+    border:none;
+    border-radius: 22px;
+    text-shadow: 8px 2px red;
+	color: black;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: Georgia, serif;
+}
+
+#bt_soal_2:hover{
+	background-color: blue;
+	box-shadow: 0px 5px red;
+}
+
+#bt_soal_3, #bt_soal_5{
+	background-color: white;
+    border:none;
+    border-radius: 22px;
+    text-shadow: 8px 2px blue;
+	color: black;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: Georgia, serif;
+}
+
+#bt_soal_3:hover, #bt_soal_5:hover{
+	background-color: blue;
+	box-shadow: 5px 5px red;
+}
+
+#bt_hello{
+	background-color: white;
+    border:none;
+    border-radius: 22px;
+    text-shadow: 8px 2px red;
+	color: black;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: Georgia, serif;
+}
+
+#bt_hello:hover{
+	background-color: green;
+}
+
+#lb_led{
+	background-color: transparent;
+    text-shadow: 5px 1px white;
+    color: red;
+    font-weight: bold;
+    font-size: 35px;
+    font-family: Georgia, serif;
+}
+
+#lb_soal{
+	background-color: transparent;
+    text-shadow: 3px 1px white;
+    color: blue;
+    font-weight: bold;
+    font-size: 35px;
+    font-family: Georgia, serif;
+}
+
+#lb_input{
+	background-color: transparent;
+    text-shadow: 3px 1px white;
+    color: green;
+    font-weight: bold;
+    font-size: 35px;
+    font-family: Georgia, serif;
+}
+
+#entry_text{
+	color: black;
+	background-color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 17pt;
+    padding:10px 100px;
+    border-radius:22px;
+}
+
+

@@ -1,0 +1,42 @@
+/* GLOBAL STYLE */
+
+#myWindow{
+     background-color:pink;;
+}
+
+#display_cam{
+	
+}
+
+#lb_cam{
+	background-color: transparent;
+    text-shadow: 5px 1px white;
+    color: red;
+    font-weight: bold;
+    font-size: 35px;
+    font-family: Georgia, serif;
+}
+
+#timer{
+	background-color: transparent;
+    text-shadow: 5px 1px white;
+    color: blue;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Georgia, serif;
+}
+
+#bt_take_pic{
+     background-image: none;
+     background-color: blue;
+     color:white;
+     border: none;
+     border-radius: 22px;
+     padding: 10px 10px;
+     box-shadow: -5px 5px red;
+}
+
+#bt_take_pic:hover{
+     background-color: #00ff00;
+     box-shadow: -5px 10px blue;
+}

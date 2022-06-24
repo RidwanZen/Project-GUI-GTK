@@ -1,0 +1,267 @@
+/* GLOBAL STYLE */
+menuitem{
+     background: rgb(255, 196, 0);
+     padding-top: 10px;
+     padding-bottom: 10px;
+     color: black;
+}
+
+menuitem:hover{
+     background: whitesmoke;
+}
+
+button{
+     background: rgb(255,236,196);
+     border: none;
+     color: black;
+}
+
+.stack-switcher > .needs-attention {
+	background : white;
+    color: blue;
+    font-size: 30px;
+    border-bottom: solid 5px #6d6d6d;
+    padding:2px 5px;
+}
+
+.stack-switcher > .needs-attention:checked{
+	background : #362415;
+    color: #eee;
+    font-size: 35px;
+}
+
+#myWindow, #windowMenu, #windowMenuHot, #windowMenuIced, #windowPayment{
+     background-image: url('img/desk.png');
+}
+
+#display_iklan{
+	padding-right:400px;
+	padding-left:400px;
+}
+
+#menu_box_display{
+	padding-right:200px;
+	padding-left:200px;
+}
+
+#menu_box_bt{
+	padding-top:30px;
+	padding-bottom:30px;
+}
+
+#menuHot_box_display, #menuIced_box_display{
+	padding-right:30px;
+	padding-left:30px;
+}
+
+#payment_box_display{
+	padding-left:130px;
+}
+
+#bt_menu{
+     background-image: none;
+     background-color: transparent;
+     border: none;
+     border-radius: 22px;
+     padding: 10px 200px;
+     box-shadow: -5px 10px red;
+}
+
+#bt_menu:hover{
+     background-color: #00ff00;
+     box-shadow: -5px 10px #888888;
+}
+
+#bt_iced{
+	background-color: transparent;
+	border: none;
+    border-radius: 30px;
+}
+
+#bt_iced:hover{background-color: blue;}
+
+#bt_hot{
+	background-color: transparent;
+	border: none;
+    border-radius: 30px;
+}
+
+#bt_hot:hover{background-color: red;}
+
+#bt_iced_box, #bt_hot_box{
+	background-color: white;
+    border:none;
+    border-radius: 22px;
+}
+
+#bt_menu_back:hover, #bt_menuHot_back:hover, #bt_menuIced_back:hover, #bt_payment_back:hover{
+	background-color: #FF7F50;
+}
+
+#bt_payment:hover{
+	background-color: #00FFFF;
+}
+
+#bt_menu{
+    background-color: white;
+    border:none;
+    border-radius: 22px;
+    text-shadow: 8px 1px red;
+	color: black;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: Georgia, serif;
+}
+
+#bt_menu_back, #bt_menuHot_back, #bt_menuIced_back, #bt_payment_back{
+	background-image: none;
+    background-color: transparent;
+    border: none;
+    border-radius: 50%;
+    padding: 1px 1px;
+}
+
+#bt_payment_bg{
+	background-image: none;
+    background-color: transparent;
+    border: none;
+    border-radius: 50%;
+    padding: 10px 10px;
+}
+
+#bt_menu_back, #bt_menuHot_back, #bt_menuIced_back, #bt_payment_back, #bt_payment{
+	background-color: white;
+    border:none;
+    border-radius: 50%;
+}
+
+#hot_label{
+	background-color: transparent;
+    text-shadow: 8px 1px white;
+    color: red;
+    font-weight: bold;
+    font-size: 35px;
+    font-family: Georgia, serif;
+}
+
+#iced_label{
+	background-color: transparent;
+    text-shadow: 8px 1px white;
+    color: blue;
+    font-weight: bold;
+    font-size: 35px;
+    font-family: Georgia, serif;
+}
+
+
+#main_label, #menu_label, #menuIced_label, #payment_label{
+     background-color: transparent;
+     color: white;
+     border-radius: 20px;
+     font-weight: bold;
+     font-size: 50px;
+     font-family: Georgia, serif;
+     text-shadow: 5px 5px blue;
+}
+
+#payment_label1{
+	background-color: transparent;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Georgia, serif;
+}
+
+#bt_payment_label{
+	background-color: #faebd7;
+    color: black;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: Georgia, serif;
+    text-shadow: 2px 2px grey;
+    padding-right:5px;
+    padding-left:5px;
+}
+
+#menuHot_label{
+	background-color: transparent;
+    color: white;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 50px;
+    font-family: Georgia, serif;
+    text-shadow: 5px 5px red;
+}
+
+#menuHot_bt1, #menuHot_bt2, #menuHot_bt3, #menuHot_bt4, #menuHot_bt5, #menuHot_bt6, #menuHot_bt7, #menuHot_bt8,
+#menuIced_bt1, #menuIced_bt2, #menuIced_bt3, #menuIced_bt4, #menuIced_bt5, #menuIced_bt6, #menuIced_bt7, #menuIced_bt8{
+	background-color: transparent;
+	border: none;
+    border-radius: 30px;
+}
+
+#menuHot_harga1, #menuHot_harga2, #menuHot_harga3, #menuHot_harga4, #menuHot_harga5, #menuHot_harga6, #menuHot_harga7, #menuHot_harga8{
+	background-color: transparent;
+    text-shadow: 5px 5px red;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: Georgia, serif;
+}
+
+#menuIced_harga1, #menuIced_harga2, #menuIced_harga3, #menuIced_harga4, #menuIced_harga5, #menuIced_harga6, #menuIced_harga7, #menuIced_harga8{
+	background-color: transparent;
+    text-shadow: 5px 5px blue;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: Georgia, serif;}
+
+#menuHot_label_bt1, #menuHot_label_bt2, #menuHot_label_bt3, #menuHot_label_bt4, #menuHot_label_bt5, #menuHot_label_bt6, #menuHot_label_bt7, #menuHot_label_bt8,
+#menuIced_label_bt1, #menuIced_label_bt2, #menuIced_label_bt3, #menuIced_label_bt4, #menuIced_label_bt5, #menuIced_label_bt6, #menuIced_label_bt7, #menuIced_label_bt8,
+#payment_menu_gopay, #payment_menu_ovo, #payment_menu_dana, #payment_menu_qris, #payment_menu_shopeePay{
+	background-color: transparent;
+    text-shadow: 5px 1px white;
+    color: black;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: Georgia, serif;
+}
+
+#clock_lb, #clock_lb1, #clock_lb2, #clock_lb3, #clock_lb4{
+     background-color: transparent;
+     text-shadow: 5px 5px red;
+     color: white;
+     font-weight: bold;
+     font-size: 30px;
+     font-family: Georgia, serif;
+     
+}
+
+#payment_harga_gopay, #payment_harga_ovo, #payment_harga_qris, #payment_harga_dana, #payment_harga_shopeePay{
+     background-color: transparent;
+     text-shadow: 5px 5px red;
+     color: white;
+     font-weight: bold;
+     font-size: 30px;
+     font-family: Georgia, serif;
+     
+}
+
+#windowSucces, #bt_succes{
+	background-color: transparent;
+	background-image: url('img/desk.png');
+	padding : 5px 5px;
+	
+}
+
+#succes_label{
+     background-color: transparent;
+     text-shadow: 5px 5px black;
+     color: white;
+     font-weight: bold;
+     font-size: 50px;
+     font-family: Georgia, serif;
+     
+}
